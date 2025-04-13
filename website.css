@@ -1,0 +1,105 @@
+    *{
+        margin:0px;
+        padding:0px;
+        box-sizing:border-box;
+        font-family:sans-serif
+    }
+    body{
+        background-color: #f0f0f0;
+    }
+    h1{
+        font-family: 'Roboto', sans-serif;
+        font-weight: 700; /* For bold version */
+}
+    
+    .card-container{
+        display:flex;
+        justify-content:center;
+        flex-wrap: wrap;
+        margin-top:100px;
+    }
+    .card{
+        width:325px;
+        background-color:#f0f0f0;
+        border-radius:8px;
+        overflow:hidden;
+        box-shadow: 0px 2px 4px rgba(0,0,0,0,2);
+        margin: 20px;
+    }
+
+    .navbar {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        
+    }
+
+    .menu{
+        display: inline-block;
+        padding: 12px 24px;
+        border-radius: 6px;
+        font-weight: 600;
+        font-size: 16px;
+        text-align: center;
+        text-decoration: none;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        border: none;
+        background:#666
+        
+     }
+    
+.menu button{
+    padding: 12px 24px;
+    border-radius: 6px;
+    font-weight: 600;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border: none;
+    transition:background-color 0.3s; 
+    background-color: hwb(41 36% 11%);
+}
+    img{
+        
+    }
+    
+
+    .cake-cards{
+        display:flex;
+        background:#e0e272;
+        border-radius: 8px;
+        padding: 20px;
+        box-shadow: 0 4px;
+        justify-content: center;
+        align-items: centre;
+        min-height: 200px;
+    }
+
+    #logo {
+    width:8rem;
+    border-radius: 110px;
+}
+
+    .card img{
+        width: 100px;
+        height:80px;
+        margin-left: 10px;
+        margin-top: 10px;
+        width: 250px;
+        height:250px;
+        margin-right: 10px;   /* Makes image fill container width */
+            
+        
+
+    }
+    .card-content h3{
+        font-size: 28px;
+        margin-bottom:8px;
+    }
+    .card-content p {
+        color: #666;
+        font: size 15px;line-height:1.3;
+    }
